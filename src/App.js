@@ -37,6 +37,7 @@ class App extends React.Component {
         <CardActions>
           <TextField
             type='number'
+            label='郵便番号'
             value={this.state.zip_code}
             onChange={e => this.setState({ zip_code: e.target.value })}
           />
